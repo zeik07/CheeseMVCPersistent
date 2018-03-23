@@ -1,8 +1,8 @@
 ﻿@model CheeseMVC.ViewModels.ViewMenuViewModel
 @{ 
-    ViewBag.Title = Model.Menu ;
+    ViewBag.Title = Model.Menu.Name ;
 }
-<h1>@Model.Menu</h1>
+<h1>@Model.Menu.Name</h1>
 <ul>
     @foreach (var cheeseMenu in Model.Items)
     {

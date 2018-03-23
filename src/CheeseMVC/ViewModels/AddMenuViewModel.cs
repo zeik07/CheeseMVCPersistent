@@ -17,5 +17,9 @@ namespace CheeseMVC.ViewModels
         {
 
         }
+
+        public AddMenuViewModel()
+        {
+        }
     }
 }
